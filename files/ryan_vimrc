@@ -1,4 +1,17 @@
 
-execute pathoge#infect()
+"Pathogen load
+filetype off
+
+call pathogen#infect()
+call pathogen#helptags()
+
 syntax on
 filetype plugin indent on
+
+"general settings
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set filetype-plugin-on
+set filetype-indent
